@@ -352,6 +352,7 @@ ISSUECMD DS    0H
                CONSID=CNID,                                            +
                MF=(E,MGCRE)
          MODESET MF=(E,PROB)           Set problem state
+         XC    TIMEECB,TIMEECB         Clear timer ECB        
 ISSUESTM DS    0H
          LA    R2,STMREXIT             Load STIMERM exit address
          LA    R3,DSAADDR              Using DSA for parameter data
